@@ -14,7 +14,7 @@ var app = express();
 // setup our express application
 // -----------------------------------------------------------
 
-app.use('/public', exress.static(process.cwd() + '/public'));
+app.use('/public', express.static(process.cwd() + '/public'));
 app.set('view engine', 'ejs');
 
 // -----------------------------------------------------------
